@@ -20,20 +20,20 @@ git clone https://github.com/Lungu1107/Quiz-Game-App-Android-Studio.git
 cd Quiz-Game-App-Android-Studio
 # Open Android Studio and run the project
 
-Usage
+## Usage
 Build and run the application using Android Studio. Choose your preferred difficulty level and category to start enjoying the quizzes!
 
-Contributing
+## Contributing
 Contributions to the Quiz Game App are welcome. Here's how you can contribute:
 
-Fork the repository.
+## Fork the repository.
 Create a new branch (git checkout -b feature-branch).
 Make your changes.
 Commit your changes (git commit -am 'Add some feature').
 Push to the branch (git push origin feature-branch).
 Create a new Pull Request.
 
-Contact
+## Contact
 For questions, suggestions, or contributions, please contact:
 
 Victor Lungu
