@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Container for Input Fields with Border -->
+    <LinearLayout
+        android:id="@+id/linearLayoutInputFields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/input_field_border"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true">
+
+        <!-- Email input field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/field_background"
+                android:minHeight="48dp"
+                android:hint="@string/login_email_hint"
+                android:inputType="textEmailAddress"
+                android:autofillHints="emailAddress"
+                android:padding="12dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Password input field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <EditText
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/field_background"
+                android:minHeight="48dp"
+                android:hint="@string/login_password_hint"
+                android:inputType="textPassword"
+                android:autofillHints="password"
+                android:padding="12dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <!-- Login button -->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button_text"
+        android:layout_below="@id/linearLayoutInputFields"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <!-- Registration link -->
+    <TextView
+        android:id="@+id/tv_RegistrationLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_no_account_prompt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_below="@id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

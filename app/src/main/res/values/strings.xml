@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">QuizGameApp</string>
+
+    <!-- Difficulty Mode Headings -->
+    <string name="easy_mode_heading">Easy Mode</string>
+    <string name="medium_mode_heading">Medium Mode</string>
+    <string name="difficult_mode_heading">Difficult Mode</string>
+
+    <!-- Login Screen Strings -->
+    <string name="login_email_hint">Enter your email</string>
+    <string name="login_password_hint">Enter your password</string>
+    <string name="login_button_text">Login</string>
+    <string name="login_error_message">Email or Password did not match</string>
+    <string name="login_no_account_prompt">Click here to register.</string>
+    <string name="invalid_email_error">Invalid email format</string>
+    <string name="empty_password_error">Password cannot be empty</string>
+    <string name="empty_email_error">Email field cannot be empty</string>
+
+    <!-- Registration Screen Strings -->
+    <string name="registration_title">Register</string>
+    <string name="register_name_hint">Enter your name</string>
+    <string name="register_email_hint">Enter your email</string>
+    <string name="register_password_hint">Enter your password</string>
+    <string name="register_phone_hint">Enter your phone number</string>
+    <string name="register_gender_hint">Enter your gender</string>
+    <string name="register_button_text">Register</string>
+    <string name="registration_success_message">Registration successful</string>
+    <string name="register_already_have_account">Already have an account? Login here.</string>
+    <string name="registration_error_message">Please fill in all fields correctly.</string>
+    <string name="empty_field_error">This field cannot be empty</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="select_gender_error">Please select a gender</string>
+    <string name="empty_name_error">Name cannot be empty</string>
+    <string name="empty_phone_error">Phone number cannot be empty</string>
+
+    <!-- General App Strings -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit_application_title">Exit Application</string>
+    <string name="exit_application_message">Do you want to close this application?</string>
+    <string name="go_back">Go Back</string>
+
+    <!-- Notifications Strings -->
+    <string name="notifications_title">Enable Notifications</string>
+    <string name="notifications_summary">Receive alerts and updates</string>
+
+    <!-- Quiz Activity Strings -->
+    <string name="submit_button_text">Submit</string>
+    <string name="total_questions">Total Questions</string>
+    <string name="question_placeholder">This will be the question</string>
+    <string name="answer_a">Answer A</string>
+    <string name="answer_b">Answer B</string>
+    <string name="answer_c">Answer C</string>
+    <string name="answer_d">Answer D</string>
+    <string name="question_number">QUESTION %1$d OF %2$d</string>
+    <string name="answer_format">%1$s. %2$s</string>
+    <string name="exit_quiz">Exit Quiz</string>
+
+
+    <!-- Profile Activity Strings -->
+    <string name="profile_image_description">Profile image</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="welcome_message">Hello there, Quiz Master!</string>
+    <string name="edit_profile">Edit Profile</string>
+
+
+    <!-- Reward Activity Strings -->
+    <string name="score_text">Your Score: %1$d/%2$d</string>
+    <string name="congratulations_message">Well Done!</string>
+    <string name="try_again_message">Try again!</string>
+    <string name="reward_restart_quiz">Restart Quiz</string>
+    <string name="reward_profile">Profile</string>
+    <string name="reward_settings">Settings</string>
+
+    <!-- Level Selection Activity Strings -->
+    <string name="easy_mode">Easy Mode</string>
+    <string name="medium_mode">Medium Mode</string>
+    <string name="difficult_mode">Difficult Mode</string>
+    <string name="powered_by_vl">Powered by VL</string>
+    <string name="heading_start_your_challenge">Start Your Challenge</string>
+
+    <string name="splash_logo_description">App logo on splash screen</string>
+    <string name="answer_button_description">Quiz answer option</string>
+    <string name="welcome_user">Welcome, %1$s!</string>
+
+    <!-- Add other strings as needed for different parts of your app -->
+
+    <string name="profile_pic_option_1">Male profile picture option</string>
+    <string name="profile_pic_option_2">Female profile picture option</string>
+    <string name="name_hint">Name</string>
+    <string name="email_hint">Email</string>
+    <string name="phone_hint">Phone</string>
+    <string name="password_hint">Password</string>
+    <string name="save_updates">Save Updates</string>
+    <string name="delete_account">Delete Account</string>
+
+
+
+
+</resources>

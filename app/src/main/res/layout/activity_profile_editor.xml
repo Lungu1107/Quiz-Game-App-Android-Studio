@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_bg"
+    android:padding="16dp"
+    tools:context=".others.ProfileEditorActivity">
+
+    <!-- Profile Picture Selection -->
+    <LinearLayout
+        android:id="@+id/profilePictureLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewProfilePicOption1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/male_profile_pic"
+            android:contentDescription="@string/profile_pic_option_1" />
+
+        <ImageView
+            android:id="@+id/imageViewProfilePicOption2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/female_profile_pic"
+            android:contentDescription="@string/profile_pic_option_2" />
+    </LinearLayout>
+
+    <!-- Container for Input Fields with Border -->
+    <LinearLayout
+        android:id="@+id/linearLayoutInputFields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/input_field_border"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/profilePictureLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- User Name Input Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/field_background"
+                android:hint="@string/name_hint"
+                android:inputType="textPersonName"
+                android:autofillHints="name" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Email Input Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/field_background"
+                android:hint="@string/email_hint"
+                android:inputType="textEmailAddress"
+                android:autofillHints="emailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Phone Input Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/field_background"
+                android:hint="@string/phone_hint"
+                android:inputType="phone"
+                android:autofillHints="phone" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Password Input Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/field_background"
+                android:hint="@string/password_hint"
+                android:inputType="textPassword"
+                android:autofillHints="password" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <!-- Action Buttons -->
+    <Button
+        android:id="@+id/btnSaveUpdates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_updates"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutInputFields"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnDeleteAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_account"
+        app:layout_constraintTop_toBottomOf="@id/btnSaveUpdates"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnGoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

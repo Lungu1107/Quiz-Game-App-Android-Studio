@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <!-- Cloud Backup section is commented out. Uncomment and configure if needed in the future. -->
+    <!--
+    <cloud-backup>
+        <include domain="file" path="your_folder_name/"/>
+        <include domain="sharedpref" path="your_shared_preferences.xml"/>
+        <exclude domain="database" path="your_database_name"/>
+        <exclude domain="file" path="temporary_files/"/>
+    </cloud-backup>
+    -->
+
+    <!-- Uncomment and configure for device transfer if needed -->
+    <!--
+    <device-transfer>
+        <include domain="file" path="important_files/"/>
+        <exclude domain="cache" path="temporary_cache/"/>
+    </device-transfer>
+    -->
+</data-extraction-rules>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/game_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/game_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidAppVictor"
+        tools:targetApi="31">
+
+        <!-- Splash Activity as the entry point -->
+        <activity
+            android:name=".others.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Profile Activity -->
+        <activity
+            android:name=".others.ProfileActivity"
+            android:exported="true" />
+
+        <!-- Profile Editor Activity - New Addition -->
+        <activity android:name=".others.ProfileEditorActivity"
+            android:exported="false">
+            <!-- Add any additional attributes here if needed -->
+        </activity>
+
+        <!-- Level Selection Activity -->
+        <activity
+            android:name=".others.LevelSelectionActivity"
+            android:exported="false" />
+
+        <!-- Quiz Mode Activities -->
+        <activity android:name=".levels.EasyModeActivity" android:exported="false" />
+        <activity android:name=".levels.MediumModeActivity" android:exported="false" />
+        <activity android:name=".levels.DifficultModeActivity" android:exported="false" />
+
+        <!-- Reward Activity -->
+        <activity
+            android:name=".others.RewardActivity"
+            android:exported="false" />
+
+        <!-- Settings Activity -->
+        <activity
+            android:name=".others.SettingsActivity"
+            android:exported="false" />
+
+        <!-- Authentication Activities -->
+        <activity android:name=".authentication.LoginActivity" android:exported="false" />
+        <activity android:name=".authentication.RegistrationActivity" android:exported="false" />
+    </application>
+
+</manifest>
