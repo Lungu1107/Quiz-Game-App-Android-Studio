@@ -28,8 +28,8 @@ Create a new Pull Request.
 ## Contact
 For questions, suggestions, or contributions, please contact:
 
-Victor Lungu
-lungu1107@gmail.com
+Victor Lungu,
+lungu1107@gmail.com,
 www.linkedin.com/in/victor-lungu-398372238
 
 ## Installation
