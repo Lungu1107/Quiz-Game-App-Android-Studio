@@ -12,14 +12,6 @@ The Quiz Game Android App is a dynamic and engaging application designed to test
 - **Customizable Settings**: Tailor the app to your preferences.
 - **Secure Authentication**: Robust login and registration features for user security.
 
-## Installation
-Clone the repository and import the project into Android Studio to get started:
-
-```bash
-git clone https://github.com/Lungu1107/Quiz-Game-App-Android-Studio.git
-cd Quiz-Game-App-Android-Studio
-# Open Android Studio and run the project
-
 ## Usage
 Build and run the application using Android Studio. Choose your preferred difficulty level and category to start enjoying the quizzes!
 
@@ -39,3 +31,14 @@ For questions, suggestions, or contributions, please contact:
 Victor Lungu
 lungu1107@gmail.com
 www.linkedin.com/in/victor-lungu-398372238
+
+## Installation
+Clone the repository and import the project into Android Studio to get started:
+
+```bash
+git clone https://github.com/Lungu1107/Quiz-Game-App-Android-Studio.git
+cd Quiz-Game-App-Android-Studio
+# Open Android Studio and run the project
+
+
+
